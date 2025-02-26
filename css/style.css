@@ -167,6 +167,11 @@ header ul li {
 .pagination ul li {
   margin: 0 10px;
   font-style: italic;
+  cursor: pointer;
+}
+
+.pagination ul li:hover {
+  color: #FF7575;
 }
 
 .page_active {
